@@ -1,2 +1,1 @@
-# shijietopkek.github.io
- My Portfolio Website
+My portfolio website documenting my interests, achievements and other information about myself. Enjoy!
