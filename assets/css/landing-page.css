@@ -1182,12 +1182,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
    .landing-page .section-features .card{
         width: 100%;
-        min-height: 490px;
         padding: 10px 30px;
         border: 1px solid #DDDDDD;
         border-radius: 10px;
         margin-top: 30px;
-        text-align: center;
+        text-align: left;
    }
    .landing-page .section-features .card .icon i{
         font-size: 63px;
@@ -1242,7 +1241,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
    .landing-page .section-testimonial{
      position: relative;
     width: 100%;
-    min-height: 450px;
+    min-height: 550px;
   }
   .landing-page .section-testimonial .carousel{
     margin-top: 50px;
@@ -1706,7 +1705,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .firstplace{
     font-family: verdana;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
     color: #ffd700;
     text-shadow: 1px 1px 1px #DAA520	,
@@ -1726,7 +1725,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 .secondplace{
     font-family: verdana;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
     color: #D3D3D3 ;
     text-shadow: 1px 1px 1px #A9A9A9  ,
@@ -1747,7 +1746,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
 .thirdplace{
     font-family: verdana;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 700;
     color: #DAA520 ;
     text-shadow: 1px 1px 1px #804a00 ,
@@ -1767,7 +1766,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 }
 .merit{
     font-family: verdana;
-    font-size: 5em;
+    font-size: 3.5em;
     font-weight: 700;
     color: #87cefa ;
     text-shadow: 1px 1px 1px #87b1fa ,
