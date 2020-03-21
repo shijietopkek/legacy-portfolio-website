@@ -1686,6 +1686,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
+  .landing-page .skills-title{
+    font-size: 28px;
+  }
 }
 
 @media (min-width: 768px){
