@@ -872,9 +872,9 @@ a:focus, a:active {
  .header-text{
       text-transform: uppercase;
       font-weight: 200;
-      color: #333;
+      color: #FFFFFF;
       margin-bottom: 20px;
-      font-size: 30px;
+      font-size: 40px;
       position: relative;
       line-height: 24px;
 }
@@ -1177,7 +1177,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
 
    .landing-page .section-features{
-        margin: 50px 0;
+        background-color: #2A3439;
    }
 
    .landing-page .section-features .card{
@@ -1187,21 +1187,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
         border-radius: 10px;
         margin-top: 30px;
         text-align: left;
-   }
-   .landing-page .section-features .card .icon i{
-        font-size: 63px;
-        color: #9a9a9a;
-        width: 85px;
-        height: 85px;
-        line-height: 80px;
-        text-align: center;
-        border-radius: 50%;
-        margin: 0 auto;
-        margin-top: 20px;
+        background-color: #696969;
    }
 
     .landing-page .section-features .card.card-blue{ 
-      border-color: #CCE7F5;
+      border-color: #FFFFFF;
       border-width: 2px
     }
     .landing-page .section-features .card.card-blue .icon i{
@@ -1225,16 +1215,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     .landing-page .section-features .card.card-red .icon i{
       color:#E01724;
     }
-    .landing-page .section-features .card  h4{
+    .landing-page .section-features .card  h3{
         font-weight: 300;
-        font-size: 18px;
-        margin: 30px 0 -15px;
+        font-size: 24px;
+        margin: 5px 0 -15px;
+        color: #FFFFFF;
    }
 
    .landing-page .section-features .card  p{
         font-size: 16px;
         line-height: 22px;
-        color: #777;
+        color: #FFFFFF;
    }
 
 
@@ -1263,7 +1254,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
       display: block;
    }
 
-   .landing-page .section-testimonial .carousel-inner .item .carousel-testimonial-caption{
+   .landing-page .section-testimonial .carousel-inner .item .carousel-website-caption{
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
@@ -1834,4 +1825,14 @@ $duration: 5s;
   font-weight: 300;
   line-height: 18px;
   text-shadow: 2px 2px #000000;
+}
+.skills-title{
+  color: #000000;
+  font-size: 42px;
+  font-weight:300;
+}
+.website-title{
+  color:#000000;
+  font-size: 48px;
+  font-weight:300;
 }
