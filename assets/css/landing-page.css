@@ -876,7 +876,7 @@ a:focus, a:active {
       margin-bottom: 20px;
       font-size: 40px;
       position: relative;
-      line-height: 24px;
+      line-height: 48px;
 }
 
 .landing-page .navbar-top {
@@ -1830,9 +1830,11 @@ $duration: 5s;
   color: #000000;
   font-size: 42px;
   font-weight:300;
+  line-height: 54px;
 }
 .website-title{
   color:#000000;
   font-size: 48px;
   font-weight:300;
+  line-height: 60px;
 }
