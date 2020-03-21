@@ -1688,6 +1688,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
   .landing-page .skills-title{
     font-size: 28px;
+    line-height: 34px;
   }
 }
 
