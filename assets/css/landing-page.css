@@ -1086,7 +1086,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
    .landing-page .logos li{
     display: inline-block;
-    margin: 0px 17px;
+    margin: 10px 17px;
+   }
+
+    .landing-page .logos p{
+    font-size: 20px;
+    font-weight: 400;
    }
 
    .landing-page .section-presentation {
@@ -1826,8 +1831,7 @@ $duration: 5s;
   line-height: 18px;
   color: #FFFFFF;
   background-color: #333333;
-  border-style: ridge;
-  border-color: #FFFFFF;
+  border:3px ridge #FFFFFF;
 }
 .skills-title{
   color: #000000;

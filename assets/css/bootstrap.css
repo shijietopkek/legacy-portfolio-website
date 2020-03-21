@@ -6022,7 +6022,7 @@ button.close {
 .carousel-caption {
   position: absolute;
   right: 5%;
-  top:250px;
+  top:245px;
   bottom: auto;
   left: 5%;
   z-index: 10;
