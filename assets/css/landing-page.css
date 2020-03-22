@@ -425,6 +425,10 @@ a:focus, a:active {
   background-color: #EEEEEE;
 }
 
+.section-dark-gray{
+  background-color: #d3d3d3;
+}
+
 .section-white {
   background-color: #FFFFFF;
 }
@@ -1094,6 +1098,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     font-weight: 900;
    }
 
+
+
+
    .landing-page .section-presentation {
     overflow: hidden;
     width: 100%;
@@ -1237,7 +1244,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
    .landing-page .section-testimonial{
      position: relative;
     width: 100%;
-    min-height: 550px;
+    min-height: 500px;
   }
   .landing-page .section-testimonial .carousel{
     margin-top: 50px;
@@ -1849,3 +1856,5 @@ $duration: 5s;
   font-weight:300;
   line-height: 60px;
 }
+
+

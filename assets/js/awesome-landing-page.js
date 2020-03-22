@@ -111,3 +111,7 @@
 
             return ((elemTop < viewportBottom) && (elemBottom > viewportTop));
         }
+
+$('[data-toggle="collapse"]').click(function() {
+  $('.collapse.in').collapse('hide')
+});
