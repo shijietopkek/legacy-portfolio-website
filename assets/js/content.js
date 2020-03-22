@@ -29,18 +29,18 @@ document.getElementById("gym-content").innerHTML = intro2;
 
 //Book Content
 var intro3 = "<p>Reading has always been a hobby of mine for as long as I could remember. Books stimulate imagination, expand horizon, and transport readers into surreal and other-worldly realms, all at little to no cost. That is what makes reading so appealing to me.</p><p>I have a predisposition for classic science fiction novels, notably those written by H. G. Wells. His futuristic ideas, in contrast with the fact that he lived in an era before the Scientific Revolution, render his works especially impressive and intriguing. I have taken a particular liking to his style of interweaving politics and philosophy into his story, which keeps me both engaged and intellectually stimulated.<p>In recent years, I have also started reading up on Philosophy. Through this difficult subject I have acquired a greater understanding of myself and my surroundings at large. When it comes to picking a favourite philopher, John Locke is my go to choice. His take on personal liberty and societal obligations resonates deeply with my own views. His liberal ideas and renegade nature against authority means that his ideas are far ahead of his time, which makes his works all the more interesting to read. I recommend everyone to check out John Locke, in particular his Two Treatises of Government.</p>";
-var booksReadIntro = "Some of the best pieces of literature I've read (IMHO):";
-var booksToReadIntro = "Other titles I intend to read:";
+var booksReadIntro = "<p>Some of the best pieces of literature I've read (IMHO):</p>";
+var booksToReadIntro = "<p>Other titles I intend to read:</p>";
 var booksRead = ["The Catcher in the Rye - J. D. Salinger","Crime and Punishment - Fyodor Dostoyevsky","Uncle Tom's Cabin - Harriet Beecher Stowe","The Alchemist - Paulo Coelho","The Island of Dr Moreau - H. G. Wells","The Time Machine - H. G. Wells","Two Treatises of Government - John Locke","Gatsby - F. Scott Fitzgerald"];
 var booksToRead = ["A Letter Concerning Tolerance - John Locke","Twelve Years a Slave - Solomon Northup","Leviathan - Thomas Hobbes","The Adventure of Huckleberry Finn - Mark Twain","Fahrenheit 451 - Ray Bradbury"];
-var booksReadSection = "<p><ul>";
-var booksToReadSection = "<p><ul>";
+var booksReadSection = "<ul>";
+var booksToReadSection = "<ul>";
 for(i=0; i<booksRead.length;i++){
 	booksReadSection+= "<li>" + booksRead[i] + "</li>";
 }
 for(i=0; i<futurePieces.length;i++){
 	booksToReadSection+= "<li>" + booksToRead[i] + "</li>";
 }
-booksReadSection+="</ul></p>";
-booksToReadSection+="</ul></p>";
+booksReadSection+="</ul>";
+booksToReadSection+="</ul>";
 document.getElementById("book-content").innerHTML = intro3 + booksReadIntro + booksReadSection + booksToReadIntro + booksToReadSection;
