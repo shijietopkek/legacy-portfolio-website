@@ -1697,6 +1697,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     font-size: 28px;
     line-height: 34px;
   }
+  .hobbiestext{
+    max-height:80vh;
+  }
 }
 
 @media (min-width: 768px){
@@ -1857,4 +1860,7 @@ $duration: 5s;
   line-height: 60px;
 }
 
-
+.hobbiestext{
+  max-height:50vh;
+  overflow:auto;
+}
