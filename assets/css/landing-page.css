@@ -433,6 +433,10 @@ a:focus, a:active {
   background-color: #FFFFFF;
 }
 
+.section-light-black{
+  background-color: #A9A9A9;
+}
+
 .navbar {
   border: 0;
   font-size: 16px;
@@ -1863,4 +1867,8 @@ $duration: 5s;
 .hobbiestext{
   max-height:50vh;
   overflow:auto;
+}
+
+.white-text{
+  color:#FFFFFF;
 }
