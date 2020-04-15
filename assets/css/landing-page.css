@@ -14,7 +14,8 @@
  */
 
 /*           Font Smoothing      */
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, a, .td-name, td {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .
+, .brand, .btn-simple, a, .td-name, td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   font-family: "Helvetica Neue","Open Sans",Arial,sans-serif;
@@ -30,7 +31,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h3, .h3 {
@@ -494,18 +495,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
     .webpage .section-features .card.card-red .icon i{
       color:#E01724;
     }
-    .webpage .section-features .card  h3{
-        font-weight: 300;
-        font-size: 24px;
-        margin: 5px 0 -15px;
-        color: #FFFFFF;
-   }
+    .webpage .section-features .card  h2{
+      font-weight: 300;
+      font-size: 28px;
+      margin: 10px 0 0px;
+      color: #FFFFFF;
+ }
 
-   .webpage .section-features .card  p{
-        font-size: 16px;
-        line-height: 22px;
-        color: #FFFFFF;
-   }
+ .webpage .section-features .card  p{
+   
+      font-size: 20px;
+      line-height: 22px;
+      color: #FFFFFF;
+ }
    
    .profilepic{
      max-height:400px;
@@ -970,6 +972,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
   .hobbiestext{
     max-height:80vh;
   }
+  .description{
+    top: 100px;
+  }
 }
 
 @media (min-width: 768px){
@@ -1140,11 +1145,11 @@ $duration: 5s;
 }
 
 .section-interest-tech{
-  height:50vh;
+  min-height:50vh;
 }
 
 .section-interest-gen{
-  height:100vh;
+  min-height:100vh;
 }
 
  /* Style the navbar */
@@ -1160,7 +1165,7 @@ $duration: 5s;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px;
+  padding: 9px;
   text-decoration: none;
 }
 
