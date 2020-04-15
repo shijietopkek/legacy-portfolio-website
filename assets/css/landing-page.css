@@ -27,15 +27,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 h1, .h1 {
-  font-size: 52px;
+  font-size: 5em;
 }
 
 h2, .h2 {
-  font-size: 32px;
+  font-size: 3em;
 }
 
 h3, .h3 {
-  font-size: 28px;
+  font-size: 2.33em;
   margin: 20px 0 10px;
 }
 
@@ -84,7 +84,7 @@ a:focus, a:active {
 }
 
 .section {
-  padding: 30px 0;
+  padding: 60px 0;
   position: relative;
   background-color: #FFFFFF;
 }
@@ -205,7 +205,7 @@ a:focus, a:active {
 }
 
 .webpage1 .container{
-  max-width: 1170px;
+  max-width: 80%;
 } 
 
 
@@ -237,6 +237,8 @@ a:focus, a:active {
   margin-right: auto;
   left: 0;
   right: 0;
+  height: 100vh;
+  /*! padding: 60px; */
 }
 
 .filter-gradient{
@@ -316,11 +318,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
 .description{
   margin: 0;
   position: absolute;
-  top: 200px;
+  top: 25vh;
   color: white;
   padding: 5px;
 }
 
+.description h1{
+  margin: 10px 0 15px;
+}
+
+.x li{
+  min-width:100px;
+}
 
 
 .webpage .parallax .buttons{
@@ -510,8 +519,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
  }
    
    .profilepic{
-     max-height:400px;
-     min-height:400px;
+     max-height:50vh;
+     min-height:50vh;
    }
 
    .webpage .section-testimonial{
@@ -962,7 +971,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
   .webpage .carousel{
     min-height: 210px;
   }
-  .footer nav.pull-left, .footer:not(.footer-big) nav > ul li, .pull-right {
+  .footer nav.pull-l ft, .footer:not(.footer-big) nav > ul li, .pull-right {
     float: none !important;
   }
   .webpage .skills-title{
@@ -975,6 +984,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#232526', end
   .description{
     top: 100px;
   }
+  #navbar .navlinks{
+    font-size:1em;
+    padding:9px;
+
+  }
+  
 }
 
 @media (min-width: 768px){
@@ -1160,12 +1175,13 @@ $duration: 5s;
 }
 
 /* Navbar links */
-#navbar a {
+.navlinks {
+  font-size: 2em;
   float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 9px;
+  padding: 12px;
   text-decoration: none;
 }
 
