@@ -219,13 +219,6 @@ a:focus, a:active {
       line-height: 48px;
 }
 
-.webpage .navbar-top {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
 
 .webpage .parallax {
   width: 100%;
@@ -1156,8 +1149,9 @@ $duration: 5s;
 
  /* Style the navbar */
  #navbar {
-  overflow: hidden;
+  overflow:hidden;
   background-color: #333;
+  z-index:3;
 }
 
 /* Navbar links */
